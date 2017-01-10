@@ -9,7 +9,7 @@ function calcSum(A) {
 
   for (var i = 0; i < A.length; i+=2)
   {
-    if (A[i] >= 0) {
+    if (A[i] > 0) {
 	    sum += A[i];
     }
   }
